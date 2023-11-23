@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Main page
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the one and only official documentation repository for hackerspace.gent!
 
-## Commands
+## Hackerspace.gent Manual
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+*Work in progress* Want to use the projector? Want to play some music, or 3D print something? The [manual.md] page includes instructions for most of the commonly used infrastructure in the space.
 
-## Project layout
+## Unfinished projects
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+We run on unfinished projects. Some of them might even come with unfinished documentation! The entry point for that is here.
+
+## Visitors
+
+Never been to the space? Great, we like new visitors! Here's how to get in:
+
+* Find our [location.md]
+* Consider saying hi on our communications channels
+* it's always a good idea to bring something to do, your laptop, or your pet project
+* bring friends! Hacking is more fun with others.
+
