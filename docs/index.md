@@ -8,7 +8,7 @@ Welcome to the one and only official documentation repository for hackerspace.ge
 
 ## Unfinished projects
 
-We run on unfinished projects. Some of them might even come with unfinished documentation! The entry point for that is (here)[unfinished.md].
+We run on unfinished projects. Some of them might even come with unfinished documentation! The entry point for that is [here](unfinished.md).
 
 ## Visitors
 
@@ -16,6 +16,6 @@ Never been to the space? Great, we like new visitors! Here's how to get in:
 
 * Find our [location](location.md)
 * Consider saying hi on our [communications channels](comms.md)
-* it's always a good idea to bring something to do, your laptop, or your pet project
-* bring friends! Hacking is more fun with others.
+* It's always a good idea to bring something to do, your laptop, or your pet project
+* Bring friends! Hacking is more fun with others.
 

@@ -1,1 +1,3 @@
 site_name: Hackerspace.gent documentation
+nav:
+- 'index.md'
