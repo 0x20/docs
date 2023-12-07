@@ -2,3 +2,6 @@ site_name: Hackerspace.gent documentation
 nav:
 - Home: index.md
 - Contact: comms.md
+theme:
+  name: readthedocs
+repo_url: https://github.com/0x20/docs
