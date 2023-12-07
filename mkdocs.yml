@@ -1,3 +1,4 @@
 site_name: Hackerspace.gent documentation
 nav:
-- 'index.md'
+- Home: index.md
+- Contact: comms.md
