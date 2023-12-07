@@ -5,3 +5,4 @@ nav:
 theme:
   name: readthedocs
 repo_url: https://github.com/0x20/docs
+edit_uri: blob/main/docs/
