@@ -1,6 +1,7 @@
 site_name: Hackerspace.gent documentation
 nav:
 - Home: index.md
+- Infra: infra.md
 - Contact: comms.md
 theme:
   name: readthedocs
