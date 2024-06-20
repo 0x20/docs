@@ -28,6 +28,16 @@ Very straightforward implementation:
 
 An overview of ClubMate sellers: [https://lite.framacalc.org/hs-gent-clubmate-2024](https://lite.framacalc.org/hs-gent-clubmate-2024)
 
+## Printer
+
+A Samsung M4020nd printer is available in the space (donated by TQ and Johan for the printer). 
+DNS: `hsgprinter.lan.0x20.be`
+#### MacOS
+`Settings -> Printer -> Add printer -> Samsung M332x 382x 402x Series (SEC30CDA71FA048)`
+#### Ubuntu
+`Printers -> magic happens -> it's already there`
+
+
 ## Stadsmakers
 
 There is an internal website used by Stadsmakers with info for the coop's. See the `SpaceMembers` mattermost channel info header to find the link. Not posting the link here as it contains private data.
