@@ -28,7 +28,7 @@ Very straightforward implementation:
 
 An overview of ClubMate sellers: [https://lite.framacalc.org/hs-gent-clubmate-2024](https://lite.framacalc.org/hs-gent-clubmate-2024)
 
-## Printer
+## 2D Printer
 
 A Samsung M4020nd printer is available in the space (donated by TQ and Johan for the printer).
 DNS: `hsgprinter.lan.0x20.be`
@@ -47,6 +47,8 @@ what you're doing (if not, ask help).
 The printer is configured in LAN-only mode, and can be accessed on the network
 via OrcaSlicer software. Install the proprietary network plugin, click on
 Devices, click on add printer and you should see the bambulab in the network.
+
+DNS: bambu-mini.lan.0x20.be
 
 
 ## Stadsmakers
