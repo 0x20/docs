@@ -5,7 +5,7 @@
 1. create a new user on the UDM Pro and put the new user in the Hackerspace Members group
 2. click the button to register an NFC tag, and swipe it on the correct reader when the system tells you to do. This can be done either locally (gateway IP) or through the remote control panel [https://unifi.ui.com](https://unifi.ui.com). Data is stored locally, and it doesn't need internet or a cloud service to work.
 
-It's fail open for fire safety because we do not have any other way to exit. 
+It's fail open for fire safety because we do not have any other way to exit.
 
 ## Bar - register a new user
 Step to create a new bar account for a new member:
@@ -30,12 +30,23 @@ An overview of ClubMate sellers: [https://lite.framacalc.org/hs-gent-clubmate-20
 
 ## Printer
 
-A Samsung M4020nd printer is available in the space (donated by TQ and Johan for the printer). 
+A Samsung M4020nd printer is available in the space (donated by TQ and Johan for the printer).
 DNS: `hsgprinter.lan.0x20.be`
 #### MacOS
 `Settings -> Printer -> Add printer -> Samsung M332x 382x 402x Series (SEC30CDA71FA048)`
 #### Ubuntu
 `Printers -> magic happens -> it's already there`
+
+## 3D Printers
+
+### Bambulab mini
+
+This printer is property of mateo and miker, but free to use if you know
+what you're doing (if not, ask help).
+
+The printer is configured in LAN-only mode, and can be accessed on the network
+via OrcaSlicer software. Install the proprietary network plugin, click on
+Devices, click on add printer and you should see the bambulab in the network.
 
 
 ## Stadsmakers
