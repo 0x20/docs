@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Infra - Hackerspace.gent documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Infra";
+        var mkdocs_page_input_path = "infra.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Hackerspace.gent documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Infra</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#door-access-register-a-new-user">Door access - register a new user</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#bar-register-a-new-user">Bar - register a new user</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#doorbell">Doorbell</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#drinks">Drinks</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2d-printer">2D Printer</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#macos">MacOS</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ubuntu">Ubuntu</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3d-printers">3D Printers</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#bambulab-mini">Bambulab mini</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stadsmakers">Stadsmakers</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../comms/">Contact</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Hackerspace.gent documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Infra</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/0x20/docs/blob/main/docs/infra.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="infra">Infra</h1>
+<h2 id="door-access-register-a-new-user">Door access - register a new user</h2>
+<ol>
+<li>create a new user on the UDM Pro and put the new user in the Hackerspace Members group</li>
+<li>click the button to register an NFC tag, and swipe it on the correct reader when the system tells you to do. This can be done either locally (gateway IP) or through the remote control panel <a href="https://unifi.ui.com">https://unifi.ui.com</a>. Data is stored locally, and it doesn't need internet or a cloud service to work.</li>
+</ol>
+<p>It's fail open for fire safety because we do not have any other way to exit.</p>
+<h2 id="bar-register-a-new-user">Bar - register a new user</h2>
+<p>Step to create a new bar account for a new member:</p>
+<ol>
+<li>Update the members.beancount file on <a href="https://github.com/0x20/tab-data/blob/master/static/members.beancount">Github/0x20/tab-data/static/members.beancount</a></li>
+<li><strong>Important:</strong> the membername is case-sensitive and has to start with an uppercase!</li>
+<li>Add the new user and add mm_name to receive barbot Mattermost message for each transaction. <a href="https://github.com/0x20/tab-data/commit/a20cee70454b478addbb0c7481cba8d528829289">Example commit</a></li>
+<li>Press the 'Sync' button on the bar display</li>
+<li>The new account should be available on the very end of the list</li>
+</ol>
+<h2 id="doorbell">Doorbell</h2>
+<p>Very straightforward implementation:</p>
+<ul>
+<li>A <code>ring the bell</code> button on <a href="https://hackerspace.gent/landing/contact.php">https://hackerspace.gent/landing/contact.php</a> that writes a file on disk containing a timestamp</li>
+<li>A cronjob on the Pi (pi@10.51.3.195) that is connected to the flappers that checks every x amount of seconds if a new file is written</li>
+<li>When an updated timestamp if found, instruct the flappers</li>
+</ul>
+<h2 id="drinks">Drinks</h2>
+<p>An overview of ClubMate sellers: <a href="https://lite.framacalc.org/hs-gent-clubmate-2024">https://lite.framacalc.org/hs-gent-clubmate-2024</a></p>
+<h2 id="2d-printer">2D Printer</h2>
+<p>A Samsung M4020nd printer is available in the space (donated by TQ and Johan for the printer).
+DNS: <code>hsgprinter.lan.0x20.be</code></p>
+<h4 id="macos">MacOS</h4>
+<p><code>Settings -&gt; Printer -&gt; Add printer -&gt; Samsung M332x 382x 402x Series (SEC30CDA71FA048)</code></p>
+<h4 id="ubuntu">Ubuntu</h4>
+<p><code>Printers -&gt; magic happens -&gt; it's already there</code></p>
+<h2 id="3d-printers">3D Printers</h2>
+<h3 id="bambulab-mini">Bambulab mini</h3>
+<p>This printer is property of mateo and miker, but free to use if you know
+what you're doing (if not, ask help).</p>
+<p>The printer is configured in LAN-only mode, and can be accessed on the network
+via OrcaSlicer software. Install the proprietary network plugin, click on
+Devices, click on add printer and you should see the bambulab in the network.</p>
+<p>DNS: bambu-mini.lan.0x20.be</p>
+<h2 id="stadsmakers">Stadsmakers</h2>
+<p>There is an internal website used by Stadsmakers with info for the coop's. See the <code>SpaceMembers</code> mattermost channel info header to find the link. Not posting the link here as it contains private data.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../comms/" class="btn btn-neutral float-right" title="Contact">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/0x20/docs" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../comms/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
