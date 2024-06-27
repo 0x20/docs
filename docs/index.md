@@ -1,14 +1,13 @@
 # Main page
 
-Welcome to the one and only official documentation repository for hackerspace.gent!
+Welcome to yet another documentation repository for hackerspace.gent! 
 
-## Hackerspace.gent Manual
+This is a work-in-progress effort because the last wiki stopped functioning.
+Previous iterations: [1](https://web.archive.org/web/20150909215414/http://0x20.be/Main_Page)
 
-*Work in progress* Want to use the projector? Want to play some music, or 3D print something? The [manual](manual.md) page includes instructions for most of the commonly used infrastructure in the space.
+## Hackerspace.gent Infrastructure
 
-## Unfinished projects
-
-We run on unfinished projects. Some of them might even come with unfinished documentation! The entry point for that is [here](unfinished.md).
+The [infrastructure](infra.md) page includes instructions for some of the commonly used infrastructure in the space.
 
 ## Visitors
 
@@ -19,3 +18,6 @@ Never been to the space? Great, we like new visitors! Here's how to get in:
 * It's always a good idea to bring something to do, your laptop, or your pet project
 * Bring friends! Hacking is more fun with others.
 
+## Contact
+
+All different [contact details](comms.md) here.
