@@ -12,6 +12,11 @@ nav:
   - infra/index.md
   - Bar: infra/bar.md
   - Door access: infra/door_access.md
+  - 3D Printer: infra/printer3d.md
+  - 2D Printer: infra/printer2d.md
+  - Drinks: infra/drinks.md
+  - Flappers doorbell: infra/flappers_doorbell.md
+  - Stadsmakers: infra/stadsmakers.md
 - Contact: comms.md
 theme:
   #name: readthedocs

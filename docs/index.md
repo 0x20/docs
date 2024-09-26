@@ -7,7 +7,7 @@ Previous iterations: [1](https://web.archive.org/web/20150909215414/http://0x20.
 
 ## Hackerspace.gent Infrastructure
 
-The [infrastructure](infra.md) page includes instructions for some of the commonly used infrastructure in the space.
+The [infrastructure](infra/index.md) page includes instructions for some of the commonly used infrastructure in the space.
 
 ## Visitors
 
