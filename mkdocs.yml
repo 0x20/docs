@@ -1,4 +1,10 @@
 site_name: Hackerspace.gent documentation
+site_url: https://docs.hackerspace.gent
+
+repo_url: https://github.com/0x20/docs
+repo_name: 0x20/docs
+edit_uri: blob/main/docs/
+
 nav:
 - Home: index.md
 - Newline: newline.md
@@ -7,5 +13,14 @@ nav:
 theme:
   #name: readthedocs
   name: material
-repo_url: https://github.com/0x20/docs
-edit_uri: blob/main/docs/
+  features:
+    - content.action.edit
+    - search.suggest
+    - search.share
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: 0x20/docs
+      branch: main
