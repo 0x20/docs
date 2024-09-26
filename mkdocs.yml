@@ -5,6 +5,7 @@ nav:
 - Infra: infra.md
 - Contact: comms.md
 theme:
-  name: readthedocs
+  #name: readthedocs
+  name: material
 repo_url: https://github.com/0x20/docs
 edit_uri: blob/main/docs/
