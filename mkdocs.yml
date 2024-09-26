@@ -10,6 +10,8 @@ nav:
 - Newline: newline.md
 - Infra:
   - infra/index.md
+  - Bar: infra/bar.md
+  - Door access: infra/door_access.md
 - Contact: comms.md
 theme:
   #name: readthedocs
