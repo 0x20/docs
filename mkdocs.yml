@@ -16,6 +16,8 @@ nav:
 theme:
   #name: readthedocs
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
