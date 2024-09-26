@@ -33,6 +33,13 @@ theme:
         name: Switch to system preference
   features:
     - content.action.edit
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - navigation.expand
+    - navigation.indexes
     - search.suggest
     - search.share
 plugins:
