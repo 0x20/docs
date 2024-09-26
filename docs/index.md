@@ -3,6 +3,7 @@
 Welcome to yet another documentation repository for hackerspace.gent! 
 
 This is a work-in-progress effort because the last wiki stopped functioning.
+
 Previous iterations: [1](https://web.archive.org/web/20150909215414/http://0x20.be/Main_Page) - [2](https://wiki.hackerspace.gent/Main_Page)
 
 ## Hackerspace.gent Infrastructure
