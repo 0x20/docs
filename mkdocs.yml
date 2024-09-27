@@ -7,8 +7,7 @@ edit_uri: blob/main/docs/
 
 nav:
 - Home: index.md
-- Newline: newline.md
-- Infra:
+- Infrastructure:
   - infra/index.md
   - Bar: infra/bar.md
   - Door access: infra/door_access.md
@@ -17,6 +16,7 @@ nav:
   - Drinks: infra/drinks.md
   - Flappers doorbell: infra/flappers_doorbell.md
   - Stadsmakers: infra/stadsmakers.md
+- Newline: newline.md
 - Contact: comms.md
 theme:
   name: material
