@@ -19,10 +19,11 @@ nav:
   - Stadsmakers: infra/stadsmakers.md
 - Contact: comms.md
 theme:
-  #name: readthedocs
   name: material
   logo: assets/logo.png
   favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -59,3 +60,15 @@ plugins:
   - git-committers:
       repository: 0x20/docs
       branch: main
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://chaos.social/@hsg
+    - icon: fontawesome/brands/github
+      link: https://github.com/0x20
+    - icon: material/email
+      link: https://discuss.hackerspaces.be/
+    - icon: fontawesome/solid/location-dot
+      link: https://www.openstreetmap.org/?mlat=51.074762&mlon=3.724422#map=18/51.074762/3.724422
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/hsghent
