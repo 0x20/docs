@@ -13,6 +13,7 @@ nav:
   - Door access: infra/door_access.md
   - 3D Printer: infra/printer3d.md
   - 2D Printer: infra/printer2d.md
+  - Electricity: infra/electricity.md
   - Drinks: infra/drinks.md
   - Flappers doorbell: infra/flappers_doorbell.md
   - Stadsmakers: infra/stadsmakers.md
@@ -60,6 +61,7 @@ plugins:
   - git-committers:
       repository: 0x20/docs
       branch: main
+  - glightbox
 extra:
   social:
     - icon: fontawesome/brands/mastodon
