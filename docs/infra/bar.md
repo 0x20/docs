@@ -1,7 +1,7 @@
 # Bar
 ## Register a new user
 
-Step to create a new bar account for a new member:
+Steps to create a new bar account for a new member:
 
 1. Update the members.beancount file on [Github/0x20/tab-data/static/members.beancount](https://github.com/0x20/tab-data/blob/master/static/members.beancount)
 2. **Important:** the membername is case-sensitive and has to start with an uppercase!
