@@ -11,3 +11,7 @@ Devices, click on add printer and you should see the bambulab in the network.
 
 DNS: bambu-mini.lan.0x20.be
 
+## Prusa Mk3s+
+
+This printer is space property (also paid for by members), can be used freely if you know
+what you're doing (if not, ask help).
