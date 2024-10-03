@@ -13,6 +13,6 @@ Follow the steps at https://www.mkdocs.org/getting-started/
 
 Summary:
 - Clone this Git repo and enter the directory
-- Install mkdocs `pip install mkdocs`
+- Install mkdocs `pip install -r requirements.txt`
 - Run `mkdocs serve` and open up http://127.0.0.1:8000/ in your browser to see the generated pages
 - Make your changes
