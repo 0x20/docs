@@ -9,7 +9,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          # Fetch the complete repo history to render the creation and last edit datestamp per page
+          # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin?tab=readme-ov-file#note-when-using-build-systems-like-github-actions
+          fetch-depth: '0'
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
