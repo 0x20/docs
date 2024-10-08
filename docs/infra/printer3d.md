@@ -7,7 +7,9 @@ what you're doing (if not, ask help).
 
 The printer is configured in LAN-only mode, and can be accessed on the network
 via OrcaSlicer software. Install the proprietary network plugin, click on
-Devices, click on add printer and you should see the bambulab in the network.
+Device, click on add printer. Don't choose "Add with PIN code" and instead go to "Other Devices" and select the "hackerspace bamboo mini". 
+
+After that it asks for a 8 digit PIN that you can find in ``Settings > Lan Only Mode``.  
 
 DNS: bambu-mini.lan.0x20.be
 
