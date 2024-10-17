@@ -1,5 +1,15 @@
 # CNC Machine
-We are currently building it but this page will list how to connect to it and test stuff. 
+
+Work in progress. 
+
+### Communication
+
+You can connect to the controller over USB or using the network. 
+
+## USB
+
+1. Download putty
+2. Test
 
 ## Network 
 
