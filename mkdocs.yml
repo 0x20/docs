@@ -15,6 +15,7 @@ nav:
   - 2D Printer: infra/printer2d.md
   - Electricity: infra/electricity.md
   - Garbage: infra/garbage.md
+  - CNC: infra/cnc.md
   - Drinks: infra/drinks.md
   - Flappers doorbell: infra/flappers_doorbell.md
   - Stadsmakers: infra/stadsmakers.md
