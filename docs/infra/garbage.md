@@ -4,6 +4,6 @@
 
 Ikea Knockla, needs 50 liter trash bags
 
-## disposal
+## Disposal
 
-In the big hal
+In the big hall (needs images of the actual disposal bins, it seems they move around)
