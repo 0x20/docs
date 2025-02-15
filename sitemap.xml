@@ -71,6 +71,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.hackerspace.gent/infra/phone/</loc>
+         <lastmod>2025-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.hackerspace.gent/infra/printer2d/</loc>
          <lastmod>2025-02-15</lastmod>
          <changefreq>daily</changefreq>
