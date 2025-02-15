@@ -12,4 +12,5 @@
 | **Twitter**        | [@hsghent](http://twitter.com/HSGhent)                                          |
 | **Github**         | [https://github.com/0x20/](https://github.com/0x20)                             |
 | **Matrix**         | [Bridged room with Mattermost](https://matrix.to/#/#hackerspacegent:matrix.org) |
+| **Phone**          | [+32 456 87 02 15](tel:0032456870215)                                                               |
 | **Onderneming nr** | 825041616                                                                       |
