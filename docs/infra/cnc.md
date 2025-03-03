@@ -43,16 +43,15 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: �
 - 🟢 **Green**: x2-limit switch
 - ⚪ **White**: Ground
 - 🟤 **Brown**: Not Connected
-
 ## Wiring at the DB9 ST-connector  
 
-- 1) 🟤 **Brown**: c-limit switch  
-- 2) 🔵 **Blue**: x1-limit switch  
-- 3) 💿 **Gray**: y-limit switch  
-- 4) 🌸 **Pink**: z-limit switch  
-- 5) 🔴🔵 **Red and Blue Striped**: E-stop button located on the gantry.  
-- 6) ⚫ **Black**: Not Connected  
-- 7) 🟢 **Green**: x2-limit switch  
-- 8) 🟠💿 **Orange and Gray Striped**: E-stop button located on the gantry.  
-- 9) 🟡 **Yellow**: Ground  
-- 10) 🧬 **Shielding**: Ground  
+1) 🟤 **Brown**: c-limit switch  
+2) 🔵 **Blue**: x1-limit switch  
+3) 💿 **Gray**: y-limit switch  
+4) 🌸 **Pink**: z-limit switch  
+5) 🔴🔵 **Red and Blue Striped**: E-stop button located on the gantry.  
+6) ⚫ **Black**: Not Connected  
+7) 🟢 **Green**: x2-limit switch  
+8) 🟠💿 **Orange and Gray Striped**: E-stop button located on the gantry.  
+9) 🟡 **Yellow**: Ground  
+10) 🧬 **Shielding**: Ground
