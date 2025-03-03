@@ -38,6 +38,6 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: �
 - 🟣 **Purple**: Not Connected
 - ⚪ **White**: Not Connected
 ### 3-part cable for the x2 limit-switch 
-- 🟢 **Green**: TBD
-- - ⚪ **White**: TBD
-  - - 🟤 **Brown**: TBD
+- 🟢 **Green**: x2-limit switch
+- ⚪ **White**: Ground
+- 🟤 **Brown**: Not Connected
