@@ -25,15 +25,14 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: �
 
 
 ## Wiring at the x-axis
-- ⚫ **Black**: [function]  
-- 🔴 **Red**: [function]  
-- 🔵 **Blue**: [function]  
-- 🟢 **Green**: [function]  
+- ⚫ **Black**: Not Connected
+- 🔴 **Red**: Not Connected
+- 🔵 **Blue**: To Be Determined
+- 🟢 **Green**: x-limit switch on the opposite side of the x-axis stepper
 - 🟡 **Yellow**: Ground
-- 🟠 **Orange**: [function]  
-- 🟣 **Pink/Purple**: [function]  
-- ⚪ **White**: [function]  
-- 🟤 **Brown**: [function]  
+- 🟣 **Purple**: Not Connected
+- ⚪ **White**: Not Connected
+- 🟤 **Brown**: limit switch for the x
 - 🔴🔵 **Red and Blue Striped**: E-stop button located on the gantry.
-- 🟠⚪ **Orange and White Striped**: E-stop located on the orange controller box.
+- 🟠💿 **Orange and Gray Striped**: E-stop button located on the gantry.
 
