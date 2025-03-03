@@ -24,15 +24,20 @@ Then it you will see the IP adress of the machine. At the moment it is ´´10.51
 Interface IP mode, default value driver dependent, set to 0 for static addres: ´´$3x1=0´´
 
 
-## Wiring at the x-axis
-- ⚫ **Black**: Not Connected
-- 🔴 **Red**: Not Connected
-- 🔵 **Blue**: To Be Determined
-- 🟢 **Green**: x-limit switch on the opposite side of the x-axis stepper
+## Wiring at the gantry E-stop distribution box 
+### 12-part cable
+- 🔵 **Blue**: x1-limit switch
+- 🟢 **Green**: x2-limit switch
 - 🟡 **Yellow**: Ground
-- 🟣 **Purple**: Not Connected
-- ⚪ **White**: Not Connected
-- 🟤 **Brown**: limit switch for the x
+- 🧬 **Shielding**: Ground
+- 🟤 **Brown**: c-limit switch
 - 🔴🔵 **Red and Blue Striped**: E-stop button located on the gantry.
 - 🟠💿 **Orange and Gray Striped**: E-stop button located on the gantry.
-
+- 🔴 **Red**: Not Connected
+- ⚫ **Black**: Not Connected
+- 🟣 **Purple**: Not Connected
+- ⚪ **White**: Not Connected
+### 3-part cable for the x2 limit-switch 
+- 🟢 **Green**: TBD
+- - ⚪ **White**: TBD
+  - - 🟤 **Brown**: TBD
