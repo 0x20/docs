@@ -24,8 +24,16 @@ Then it you will see the IP adress of the machine. At the moment it is ´´10.51
 Interface IP mode, default value driver dependent, set to 0 for static addres: ´´$3x1=0´´
 
 
-## Wiring
-- <span style="color:red;">Red</span>: a  
-- <span style="color:green;">Green</span>: b  
-- <span style="color:orange;">Orange and White Striped</span>: c  
+## Wiring at the x-axis
+- ⚫ **Black**: [function]  
+- 🔴 **Red**: [function]  
+- 🔵 **Blue**: [function]  
+- 🟢 **Green**: [function]  
+- 🟡 **Yellow**: Ground
+- 🟠 **Orange**: [function]  
+- 🟣 **Pink/Purple**: [function]  
+- ⚪ **White**: [function]  
+- 🟤 **Brown**: [function]  
+- 🔴🔵 **Red and Blue Striped**: E-stop button located on the gantry.
+- 🟠⚪ **Orange and White Striped**: E-stop located on the orange controller box.
 
