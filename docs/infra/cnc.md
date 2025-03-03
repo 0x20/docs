@@ -55,3 +55,5 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: �
 - 8) 🟠💿 **Orange and Gray Striped**: E-stop button located on the gantry.
 - 9) 🟡 **Yellow**: Ground
 - 9) 🧬 **Shielding**: Ground
+
+
