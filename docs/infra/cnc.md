@@ -22,3 +22,10 @@ Then it you will see the IP adress of the machine. At the moment it is ´´10.51
 
 **Settings**
 Interface IP mode, default value driver dependent, set to 0 for static addres: ´´$3x1=0´´
+
+
+## Wiring
+- <span style="color:red;">Red</span>: a  
+- <span style="color:green;">Green</span>: b  
+- <span style="color:orange;">Orange and White Striped</span>: c  
+
