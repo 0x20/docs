@@ -19,6 +19,7 @@ nav:
   - CNC: infra/cnc.md
   - Drinks: infra/drinks.md
   - Flappers doorbell: infra/flappers_doorbell.md
+  - Led projects: infra/led_projects.md
   - Stadsmakers: infra/stadsmakers.md
 - Newline: newline.md
 - Contact: comms.md
