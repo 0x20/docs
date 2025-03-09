@@ -668,69 +668,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#communication" class="md-nav__link">
+  <a href="#safety" class="md-nav__link">
     <span class="md-ellipsis">
-      Communication
+      Safety
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usb" class="md-nav__link">
+  <a href="#getting-started-guide" class="md-nav__link">
     <span class="md-ellipsis">
-      USB
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#network" class="md-nav__link">
-    <span class="md-ellipsis">
-      Network
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wiring-at-the-gantry-e-stop-distribution-box" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wiring at the gantry E-stop distribution box
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Wiring at the gantry E-stop distribution box">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#12-part-cable" class="md-nav__link">
-    <span class="md-ellipsis">
-      12-part cable
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-part-cable-for-the-x2-limit-switch" class="md-nav__link">
-    <span class="md-ellipsis">
-      3-part cable for the x2 limit-switch
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wiring-at-the-db9-st-connector" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wiring at the DB9 ST-connector
+      Getting started guide
     </span>
   </a>
   
@@ -909,69 +858,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#communication" class="md-nav__link">
+  <a href="#safety" class="md-nav__link">
     <span class="md-ellipsis">
-      Communication
+      Safety
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usb" class="md-nav__link">
+  <a href="#getting-started-guide" class="md-nav__link">
     <span class="md-ellipsis">
-      USB
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#network" class="md-nav__link">
-    <span class="md-ellipsis">
-      Network
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wiring-at-the-gantry-e-stop-distribution-box" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wiring at the gantry E-stop distribution box
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Wiring at the gantry E-stop distribution box">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#12-part-cable" class="md-nav__link">
-    <span class="md-ellipsis">
-      12-part cable
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-part-cable-for-the-x2-limit-switch" class="md-nav__link">
-    <span class="md-ellipsis">
-      3-part cable for the x2 limit-switch
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wiring-at-the-db9-st-connector" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wiring at the DB9 ST-connector
+      Getting started guide
     </span>
   </a>
   
@@ -1002,24 +900,17 @@
 
 
 <h1 id="cnc-machine">CNC Machine</h1>
-<p>Work in progress. </p>
-<h3 id="communication">Communication</h3>
-<p>You can connect to the controller over USB or using the network. </p>
-<h2 id="usb">USB</h2>
-<ol>
-<li>Download putty</li>
-<li>Choose "Session"</li>
-<li>Select the checkbox for Serial.</li>
-<li>Continue</li>
-</ol>
-<p>Then it you will see the IP adress of the machine. At the moment it is ´´10.51.3.252´´</p>
-<h2 id="network">Network</h2>
-<ol>
-<li>Grab the IP using the USB method.</li>
-<li>Go to the addres</li>
-</ol>
-<p><strong>Settings</strong>
-Interface IP mode, default value driver dependent, set to 0 for static addres: ´´$3x1=0´´</p>
+<p>The space has a 3 axis CNC machine based on the High-Z S-720 from <a href="https://www.cnc-step.com/high-z-s-720-cnc-router-720-x-420-x-110-mm-trapezium-screws/">CNC-STEP</a>. To use the machine either 1T, Elvis, Teus or Sander should be present. </p>
+<h2 id="safety">Safety</h2>
+<p>The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the controller electronics box. When pressed they cut the voltage to the spindle, motors and controller board. <code>TODO: FACT CHECK</code>. </p>
+<p>When operating the machine:
+- Don't go near the moving axis or spindle
+- Always Wear earprotection
+- Don't leave it unattended
+- Stay attentive and be ready to hit the e-stop</p>
+<h2 id="getting-started-guide">Getting started guide</h2>
+<h1 id="wiring">Wiring</h1>
+<p>Overview of wiring.</p>
 <h2 id="wiring-at-the-gantry-e-stop-distribution-box">Wiring at the gantry E-stop distribution box</h2>
 <h3 id="12-part-cable">12-part cable</h3>
 <ul>
@@ -1054,6 +945,24 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: �
 8) 🟠💿 <strong>Orange and Gray Striped</strong>: E-stop button located on the gantry.<br />
 9) 🟡 <strong>Yellow</strong>: Ground<br />
 10) 🧬 <strong>Shielding</strong>: Ground</p>
+<h2 id="extra">Extra</h2>
+<h3 id="communication">Communication</h3>
+<p>You can connect to the controller over USB or using the network. </p>
+<h2 id="usb">USB</h2>
+<ol>
+<li>Download putty</li>
+<li>Choose "Session"</li>
+<li>Select the checkbox for Serial.</li>
+<li>Continue</li>
+</ol>
+<p>Then it you will see the IP adress of the machine. At the moment it is ´´10.51.3.252´´</p>
+<h2 id="network">Network</h2>
+<ol>
+<li>Grab the IP using the USB method.</li>
+<li>Go to the addres</li>
+</ol>
+<p><strong>Settings</strong>
+Interface IP mode, default value driver dependent, set to 0 for static addres: ´´$3x1=0´´</p>
 
 
 
@@ -1076,7 +985,7 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: �
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 3, 2025 20:36:11">March 3, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 9, 2025 02:30:48">March 9, 2025</span>
   </span>
 
     
