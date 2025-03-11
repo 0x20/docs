@@ -37,14 +37,14 @@ Turn on the CNC laptop or CNC computer and launch **gsender**. Other options wil
 
 <div style="width: 100px;">
 
-![gsender](./images/cnc-machine/getting%20started/gsender-icon.png)
+![gsender](./images/cnc-machine/getting_started/gsender-icon.png)
 </div>
 
 After launching gsender you should see the homescreen with a greyed-out button that says disconnected. 
 
 <div style="width: 100p%;">
 
-![gsender home](./images/cnc-machine/getting%20started/1-connect.png)
+![gsender home](./images/cnc-machine/getting_started/1-connect.png)
 </div>
 
 Go to the top left, make sure the firmware is set to ``grblHAL`` and not ``grbl``, go to recognized devices and choose the USB option.
@@ -52,7 +52,7 @@ Go to the top left, make sure the firmware is set to ``grblHAL`` and not ``grbl`
 After this the greyed-out button should become green and say connected. You are now ready to start moving the machine. 
 <div style="width: 100%;">
 
-![gsender home](./images/cnc-machine/getting%20started/2-connected.png)
+![gsender home](./images/cnc-machine/getting_started/2-connected.png)
 </div>
 
 ## Homing and moving the machine
@@ -70,7 +70,7 @@ Out of scope I think? Me (1T) and Elvis can help you get started probably though
 
 <div style="width: 80%;">
 
-![moving the CNC machine](./images/cnc-machine/getting%20started/3-movement.png)
+![moving the CNC machine](./images/cnc-machine/getting_started/3-movement.png)
 
 
 </div>
