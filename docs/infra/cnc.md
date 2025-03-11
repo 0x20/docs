@@ -75,6 +75,9 @@ Out of scope I think? Me (1T) and Elvis can help you get started probably though
 
 ![elec1](./images/elec1.jpeg)
 
+![moving the CNC machine](infra/images/cnc_3-movement.png)
+
+
 
 </div>
 
