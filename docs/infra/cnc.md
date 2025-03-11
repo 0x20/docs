@@ -50,7 +50,7 @@ After this the greyed-out button should become green and say connected. You are 
 
 
 ## Homing and moving the machine
-- Always start by pressing the 🏠 Home button in the top right
+- Always start by pressing the <button style="color: white; background: #356FA7; border: 1px solid grey; border-radius: 1px; padding: 6px 4px;">🏠 Home</button> button in the top right
 - After that you can move the axises but keep in mind that nothing stops you from ramming the machine into the stock material. 
 
 
@@ -64,15 +64,6 @@ Out of scope I think? Me (1T) and Elvis can help you get started probably though
 
 
 ![moving the CNC machine](./images/cnc_3-movement.png)
-
-
-![elec1](./images/elec1.jpeg)
-
-![moving the CNC machine](infra/images/cnc_3-movement.png)
-
-
-### 
-
 
 # Wiring 
 
