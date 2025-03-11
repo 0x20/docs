@@ -58,7 +58,7 @@ After this the greyed-out button should become green and say connected. You are 
 ## Homing and moving the machine
 - Always start by pressing the <button style="color: white; background: #356FA7; border: 1px solid grey; border-radius: 1px; padding: 6px 4px;">🏠 Home</button>
  button in the top right
-- After that you can move the axises but keep in min that there are only endstops at the home position (0,0,0)
+- After that you can move the axises but keep in mind that nothing stops you from ramming the machine into the stock material. 
 
 
 
@@ -115,7 +115,7 @@ Overview of wiring.
 3) 💿 **Gray**: y-limit switch  
 4) 🌸 **Pink**: z-limit switch  
 5) 🔴🔵 **Red and Blue Striped**: E-stop button located on the gantry.  
-6) ⚫ **Black**: Not Connected  
+6) Not Connected  
 7) 🟢 **Green**: x2-limit switch  
 8) 🟠💿 **Orange and Gray Striped**: E-stop button located on the gantry.  
 9) 🟡 **Yellow**: Ground  
