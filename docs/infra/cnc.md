@@ -73,6 +73,9 @@ Out of scope I think? Me (1T) and Elvis can help you get started probably though
 ![moving the CNC machine](./images/cnc_3-movement.png)
 
 
+![why are these images not loading](./images/elec1.jpeg)
+
+
 </div>
 
 
