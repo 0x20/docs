@@ -4,13 +4,10 @@ The space has a 3 axis CNC machine based on the High-Z S-720 from [CNC-STEP](htt
 
 ## Safety
 The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the electronics box. When pressed they cut the voltage to the spindle, motors and controller board. ``TODO: FACT CHECK``. 
-<div style="display:flex;">
 
 ![E-stop gantry](./images/cnc_estop.jpg)
 
 ![E-stop controller box](./images/cnc_panel.jpg)
-</div>
-
 
 When operating the machine:
 - Don't go near the moving axis or spindle
@@ -26,38 +23,34 @@ When operating the machine:
 - Press the green energize button on the electronics box
 
 
-<div style="width: 100px;">
 
 ![Energize button](./images/cnc_energize.jpg)
-</div>
 
 ### Launch gcode sender 
 
 Turn on the CNC laptop or CNC computer and launch **gsender**. Other options will work too but we found this option to be the easiest one to use. 
 
-<div style="width: 100px;">
+
 
 ![gsender](./images/cnc_gsender-icon.png)
-</div>
+
 
 After launching gsender you should see the homescreen with a greyed-out button that says disconnected. 
 
-<div style="width: 100p%;">
+
 
 ![gsender home](./images/cnc_1-connect.png)
-</div>
+
 
 Go to the top left, make sure the firmware is set to ``grblHAL`` and not ``grbl``, go to recognized devices and choose the USB option.
 
 After this the greyed-out button should become green and say connected. You are now ready to start moving the machine. 
-<div style="width: 100%;">
 
 ![gsender home](./images/cnc_2-connected.png)
-</div>
+
 
 ## Homing and moving the machine
-- Always start by pressing the <button style="color: white; background: #356FA7; border: 1px solid grey; border-radius: 1px; padding: 6px 4px;">🏠 Home</button>
- button in the top right
+- Always start by pressing the 🏠 Home button in the top right
 - After that you can move the axises but keep in mind that nothing stops you from ramming the machine into the stock material. 
 
 
@@ -68,7 +61,7 @@ The machine will not stop itself from destroying itself so be careful!
 
 Out of scope I think? Me (1T) and Elvis can help you get started probably though. We have done it a couple times now in Fusion 360 free edition.  
 
-<div style="width: 80%;">
+
 
 ![moving the CNC machine](./images/cnc_3-movement.png)
 
@@ -76,10 +69,6 @@ Out of scope I think? Me (1T) and Elvis can help you get started probably though
 ![elec1](./images/elec1.jpeg)
 
 ![moving the CNC machine](infra/images/cnc_3-movement.png)
-
-
-
-</div>
 
 
 ### 
