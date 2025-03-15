@@ -28,6 +28,8 @@ If you get stuck, I (1T) and Evils can possibly help you get started.
 
 ## Starting the machine 
 
+Now that you have your routine you can start preparing the CNC machine. 
+
 ### Energizing the machine
 - Plug in the machine
 - Make sure both estops are not activated
@@ -67,6 +69,11 @@ After this the greyed-out button should become green and say connected. You are 
 The machine will not stop itself from destroying itself so be careful!
 
 ![moving the CNC machine](./images/cnc_3-movement.png)
+
+## Running the routine (WIP)
+
+Upload your routine and press start? 
+Next time we do make a new part I'll take some screenshots. 
 
 # Wiring 
 
