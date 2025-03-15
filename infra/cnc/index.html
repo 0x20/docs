@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.6.7">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.6.8">
     
     
       
@@ -629,18 +629,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    CNC
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -651,85 +639,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#safety" class="md-nav__link">
-    <span class="md-ellipsis">
-      Safety
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#getting-started-guide" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting started guide
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Getting started guide">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#energizing-the-machine" class="md-nav__link">
-    <span class="md-ellipsis">
-      Energizing the machine
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#launch-gcode-sender" class="md-nav__link">
-    <span class="md-ellipsis">
-      Launch gcode sender
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#homing-and-moving-the-machine" class="md-nav__link">
-    <span class="md-ellipsis">
-      Homing and moving the machine
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#designing-cnc-routines" class="md-nav__link">
-    <span class="md-ellipsis">
-      Designing CNC routines
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -893,74 +802,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#safety" class="md-nav__link">
-    <span class="md-ellipsis">
-      Safety
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#getting-started-guide" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting started guide
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Getting started guide">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#energizing-the-machine" class="md-nav__link">
-    <span class="md-ellipsis">
-      Energizing the machine
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#launch-gcode-sender" class="md-nav__link">
-    <span class="md-ellipsis">
-      Launch gcode sender
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#homing-and-moving-the-machine" class="md-nav__link">
-    <span class="md-ellipsis">
-      Homing and moving the machine
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#designing-cnc-routines" class="md-nav__link">
-    <span class="md-ellipsis">
-      Designing CNC routines
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -985,7 +826,7 @@
 
 <h1 id="cnc-machine">CNC Machine</h1>
 <p>The space has a 3 axis CNC machine based on the High-Z S-720 from <a href="https://www.cnc-step.com/high-z-s-720-cnc-router-720-x-420-x-110-mm-trapezium-screws/">CNC-STEP</a>. To use the machine either 1T, Elvis, Teus or Sander should be present. </p>
-<h2 id="safety">Safety</h2>
+<h1 id="safety">Safety</h1>
 <p>The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the electronics box. When pressed they cut the voltage to the spindle, motors and controller board. 
 Extra informatino about implementation: It cuts off the controller board which also deprives the steppers of current. The spindle circuit is cut off using a seperate relay.  </p>
 <p><a class="glightbox" href="../images/cnc_estop.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="E-stop gantry" src="../images/cnc_estop.jpg" /></a></p>
@@ -995,7 +836,12 @@ Extra informatino about implementation: It cuts off the controller board which a
 - Always Wear earprotection
 - Don't leave it unattended
 - Stay attentive and be ready to hit the e-stop</p>
-<h2 id="getting-started-guide">Getting started guide</h2>
+<h1 id="getting-started-guide">Getting Started Guide</h1>
+<h2 id="designing-cnc-routines">Designing CNC Routines</h2>
+<p>To start your CNC project, the first step is to design the part in CAD software like Fusion 360. Fusion 360 can also generate toolpaths for the CNC machine, but this is not an automatic process and is outside the scope of this document.  </p>
+<p>For a very simple part, this 17-minute(!) video gives you an idea of how to get started: <a href="https://www.youtube.com/watch?v=Do_C_NLH5sw">Fusion 360 CAM Tutorial for Beginners! FF102</a>. </p>
+<p>If you get stuck, I (1T) and Evils can possibly help you get started.  </p>
+<h2 id="starting-the-machine">Starting the machine</h2>
 <h3 id="energizing-the-machine">Energizing the machine</h3>
 <ul>
 <li>Plug in the machine</li>
@@ -1017,8 +863,6 @@ Extra informatino about implementation: It cuts off the controller board which a
 <li>After that you can move the axises but keep in mind that nothing stops you from ramming the machine into the stock material. </li>
 </ul>
 <p>The machine will not stop itself from destroying itself so be careful!</p>
-<h2 id="designing-cnc-routines">Designing CNC routines</h2>
-<p>Out of scope I think? Me (1T) and Elvis can help you get started probably though. We have done it a couple times now in Fusion 360 free edition.  </p>
 <p><a class="glightbox" href="../images/cnc_3-movement.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="moving the CNC machine" src="../images/cnc_3-movement.png" /></a></p>
 <h1 id="wiring">Wiring</h1>
 <p>Overview of wiring.</p>
@@ -1097,7 +941,7 @@ Interface IP mode, default value driver dependent, set to 0 for static addres: Â
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 12, 2025 18:09:24">March 12, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 15, 2025 02:47:41">March 15, 2025</span>
   </span>
 
     
