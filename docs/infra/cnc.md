@@ -2,7 +2,7 @@
 
 The space has a 3 axis CNC machine based on the High-Z S-720 from [CNC-STEP](https://www.cnc-step.com/high-z-s-720-cnc-router-720-x-420-x-110-mm-trapezium-screws/). To use the machine either 1T, Elvis, Teus or Sander should be present. 
 
-## Safety
+# Safety
 The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the electronics box. When pressed they cut the voltage to the spindle, motors and controller board. 
 Extra informatino about implementation: It cuts off the controller board which also deprives the steppers of current. The spindle circuit is cut off using a seperate relay.  
 
@@ -16,7 +16,17 @@ When operating the machine:
 - Don't leave it unattended
 - Stay attentive and be ready to hit the e-stop
 
-## Getting started guide
+# Getting Started Guide  
+
+## Designing CNC Routines  
+
+To start your CNC project, the first step is to design the part in CAD software like Fusion 360. Fusion 360 can also generate toolpaths for the CNC machine, but this is not an automatic process and is outside the scope of this document.  
+
+For a very simple part, this 17-minute(!) video gives you an idea of how to get started: [Fusion 360 CAM Tutorial for Beginners! FF102](https://www.youtube.com/watch?v=Do_C_NLH5sw). 
+
+If you get stuck, I (1T) and Evils can possibly help you get started.  
+
+## Starting the machine 
 
 ### Energizing the machine
 - Plug in the machine
@@ -54,15 +64,7 @@ After this the greyed-out button should become green and say connected. You are 
 - Always start by pressing the <button style="color: white; background: #356FA7; border: 1px solid grey; border-radius: 1px; padding: 6px 4px;">🏠 Home</button> button in the top right
 - After that you can move the axises but keep in mind that nothing stops you from ramming the machine into the stock material. 
 
-
-
 The machine will not stop itself from destroying itself so be careful!
-
-## Designing CNC routines
-
-Out of scope I think? Me (1T) and Elvis can help you get started probably though. We have done it a couple times now in Fusion 360 free edition.  
-
-
 
 ![moving the CNC machine](./images/cnc_3-movement.png)
 
