@@ -10,5 +10,8 @@ Follow these steps to connect your device to the Bluetooth speaker setup.
 
 ![cambridge audio amplifier](./images/bluetooth_speaker.cambridge.jpg)
 
+<img src="./images/bluetooth_speaker.cambridge.jpg" width="200" height="100">
+
+
 ![cambridge audio amplifier](./images/bluetooth_speaker.pairing.device.jpg)
 
