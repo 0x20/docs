@@ -12,6 +12,7 @@ nav:
   - Bar: infra/bar.md
   - Door access: infra/door_access.md
   - Phone: infra/phone.md
+  - Bluetooth Speakers: infra/bluetooth_speakers.md
   - 3D Printer: infra/printer3d.md
   - 2D Printer: infra/printer2d.md
   - Electricity: infra/electricity.md
