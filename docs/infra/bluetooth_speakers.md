@@ -12,17 +12,3 @@ Follow these steps to connect your device to the Bluetooth speaker setup.
    <img src="./images/bluetooth_speaker.pairing.device.jpg" alt="Philips Bluetooth pairing device" height="400">
  </div>
 
-
-
-
-<div style="display: flex; align-items: center;">
-   <div style="height: 400px; margin-right: 100px;">
-      
-      <img src="./images/bluetooth_speaker.cambridge.jpg" alt="Cambridge Audio amplifier" height="400" style="margin-right: 100px;">
-   </div>
-   
-   <div style="height:400px; margin-right: 100px;">
-      
-      <img src="./images/bluetooth_speaker.cambridge.jpg" alt="Cambridge Audio amplifier" height="400" style="margin-right: 100px;">
-   </div>
- </div>
