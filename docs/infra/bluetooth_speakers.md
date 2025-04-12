@@ -8,8 +8,10 @@ Follow these steps to connect your device to the Bluetooth speaker setup.
 4. Connect your device to "PhilipsBT".
 
 <div style="display: flex; align-items: center;">
-  <img src="./images/bluetooth_speaker.cambridge.jpg" alt="Cambridge Audio amplifier" height="400" style="margin-right: 100px;">
-  <img src="./images/bluetooth_speaker.pairing.device.jpg" alt="Philips Bluetooth pairing device" height="400">
+  <div style="margin-right: 100px;">
+    <img src="./images/bluetooth_speaker.cambridge.jpg" alt="Cambridge Audio amplifier" height="400">
+  </div>
+  <div>
+    <img src="./images/bluetooth_speaker.pairing.device.jpg" alt="Philips Bluetooth pairing device" height="400">
+  </div>
 </div>
-
-
