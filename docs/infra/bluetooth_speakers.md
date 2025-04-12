@@ -18,11 +18,11 @@ Follow these steps to connect your device to the Bluetooth speaker setup.
 <div style="display: flex; align-items: center;">
    <div style="height: 400px; margin-right: 100px;">
       
-      ![](./images/bluetooth_speaker.cambridge.jpg)
+      <img src="./images/bluetooth_speaker.cambridge.jpg" alt="Cambridge Audio amplifier" height="400" style="margin-right: 100px;">
    </div>
    
    <div style="height:400px; margin-right: 100px;">
       
-      ![](./images/bluetooth_speaker.pairing.device.jpg)
+      <img src="./images/bluetooth_speaker.cambridge.jpg" alt="Cambridge Audio amplifier" height="400" style="margin-right: 100px;">
    </div>
  </div>
