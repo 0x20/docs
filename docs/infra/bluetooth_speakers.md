@@ -7,6 +7,10 @@ Follow these steps to connect your device to the Bluetooth speaker setup.
 3. Press the button on the Philips Bluetooth pairing device.  
 4. Connect your device to "PhilipsBT".
 
+
+![cambridge audio amplifier](./images/bluetooth_speaker.cambridge.jpg)
+
+
 docs/infra/images/bluetooth_speaker.cambridge.jpg
 
 docs/infra/images/bluetooth_speaker.pairing.device.jpg
