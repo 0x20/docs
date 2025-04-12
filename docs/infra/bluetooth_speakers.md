@@ -16,7 +16,7 @@ Follow these steps to connect your device to the Bluetooth speaker setup.
 
 
 <div style="display: flex; align-items: center;">
-   <div style="height:400px; margin-right: 100px;">
+   <div style="height: 400px; margin-right: 100px;">
       
       ![](./images/bluetooth_speaker.cambridge.jpg)
    </div>
