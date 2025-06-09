@@ -7,4 +7,8 @@ DNS: `hsgprinter.lan.0x20.be`
 #### Ubuntu
 `Printers -> magic happens -> it's already there`
 #### Windows
-Download the driver [here](https://support.hp.com/ie-en/drivers/samsung-proxpress-sl-m4020-laser-printer-series/model/16463036?sku=SS383G), and follow the instructions. 
+Download the driver [here](https://support.hp.com/ie-en/drivers/samsung-proxpress-sl-m4020-laser-printer-series/model/16463036?sku=SS383G).
+
+There are multiple options here but I chose this one: `Driver-Universal Print Driver > Basic Drivers > Samsung Universal Print Driver for Windows`.
+Direct download link: [Samsung Universal Print Driver for Windows](https://support.hp.com/ie-en/drivers/closure/samsung-proxpress-sl-m4020-laser-printer-series/model/16463036?sku=SS383G).
+
