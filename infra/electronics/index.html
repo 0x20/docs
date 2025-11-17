@@ -5,13 +5,9 @@
       
       
       
-        <link rel="canonical" href="https://docs.hackerspace.gent/infra/flappers_doorbell/">
+        <link rel="canonical" href="https://docs.hackerspace.gent/infra/electronics/">
       
       
-        <link rel="prev" href="../drinks/">
-      
-      
-        <link rel="next" href="../led_projects/">
       
       
         
@@ -22,7 +18,7 @@
     
     
       
-        <title>Flappers doorbell - Hackerspace.gent documentation</title>
+        <title>Electronics corner - Hackerspace.gent documentation</title>
       
     
     
@@ -83,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#doorbell" class="md-skip">
+        <a href="#electronics-corner" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Flappers doorbell
+              Electronics corner
             
           </span>
         </div>
@@ -257,12 +253,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../" class="md-tabs__link">
           
   
@@ -396,8 +390,6 @@
       
   
   
-    
-  
   
   
     
@@ -437,17 +429,16 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <div class="md-nav__link md-nav__container">
@@ -469,13 +460,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -772,19 +763,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../flappers_doorbell/" class="md-nav__link">
         
   
   
@@ -800,7 +782,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -943,6 +924,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#available-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available gear
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -958,7 +958,7 @@
 
 
   
-    <a href="https://github.com/0x20/docs/blob/main/docs/infra/flappers_doorbell.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/0x20/docs/blob/main/docs/infra/electronics.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
     </a>
@@ -966,12 +966,13 @@
   
 
 
-<h1 id="doorbell">Doorbell</h1>
-<p>Very straightforward implementation:</p>
+<h1 id="electronics-corner">Electronics corner</h1>
+<h2 id="available-gear">Available gear</h2>
 <ul>
-<li>A <code>ring the bell</code> button on <a href="https://hackerspace.gent/landing/contact.php">https://hackerspace.gent/landing/contact.php</a> that writes a file on disk containing a timestamp</li>
-<li>A cronjob on the Pi (pi@10.51.3.195) that is connected to the flappers that checks every x amount of seconds if a new file is written</li>
-<li>When an updated timestamp if found, instruct the flappers</li>
+<li>hot air station</li>
+<li>soldering iron (Weller) =&gt; ask @1t</li>
+<li>soldering iron</li>
+<li>...</li>
 </ul>
 
 
@@ -995,7 +996,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 26, 2024 23:09:39 UTC">September 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 17, 2025 13:26:51 UTC">November 17, 2025</span>
   </span>
 
     
@@ -1005,7 +1006,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 26, 2024 23:09:39 UTC">September 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 17, 2025 13:26:51 UTC">November 17, 2025</span>
   </span>
 
     
@@ -1023,9 +1024,9 @@
     
     <nav>
       
-        <a href="https://github.com/gusttt" class="md-author" title="@gusttt">
+        <a href="https://github.com/mrosseel" class="md-author" title="@mrosseel">
           
-          <img src="https://avatars.githubusercontent.com/u/41129432?v=4&amp;size=72" alt="gusttt">
+          <img src="https://avatars.githubusercontent.com/u/1465310?v=4&amp;size=72" alt="mrosseel">
         </a>
       
       
@@ -1058,44 +1059,6 @@
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer">
-        
-          
-          <a href="../drinks/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Drinks">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Drinks
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../led_projects/" class="md-footer__link md-footer__link--next" aria-label="Next: Led projects">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Led projects
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">
