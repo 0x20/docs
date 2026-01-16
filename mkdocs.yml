@@ -9,19 +9,24 @@ nav:
 - Home: index.md
 - Infrastructure:
   - infra/index.md
-  - Bar: infra/bar.md
+  # Digital
+  - Home Assistant: infra/home_assistant.md
   - Door access: infra/door_access.md
-  - Phone: infra/phone.md
-  - Bluetooth Speakers: infra/bluetooth_speakers.md
-  - 3D Printer: infra/printer3d.md
-  - 2D Printer: infra/printer2d.md
-  - Electronics corner: infra/electronics.md
-  - Electricity: infra/electricity.md
-  - Garbage: infra/garbage.md
-  - CNC: infra/cnc.md
-  - Drinks: infra/drinks.md
   - Flappers doorbell: infra/flappers_doorbell.md
   - Led projects: infra/led_projects.md
+  # Equipment
+  - 3D Printer: infra/printer3d.md
+  - 2D Printer: infra/printer2d.md
+  - CNC: infra/cnc.md
+  - Electronics corner: infra/electronics.md
+  # Social
+  - Bar: infra/bar.md
+  - Drinks: infra/drinks.md
+  - Phone: infra/phone.md
+  - Bluetooth Speakers: infra/bluetooth_speakers.md
+  # Facilities
+  - Electricity: infra/electricity.md
+  - Garbage: infra/garbage.md
   - Stadsmakers: infra/stadsmakers.md
 - Newline: newline.md
 - Contact: comms.md
