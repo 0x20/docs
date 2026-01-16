@@ -2,107 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.hackerspace.gent/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/comms/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/location/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/manual/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/newline/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/unfinished/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/bar/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/bluetooth_speakers/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/cnc/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/door_access/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/drinks/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/electricity/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/electronics/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/flappers_doorbell/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/garbage/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.hackerspace.gent/infra/home_assistant/</loc>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/led_projects/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/phone/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/printer2d/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/printer3d/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hackerspace.gent/infra/stadsmakers/</loc>
-         <lastmod>2025-11-17</lastmod>
+         <lastmod>2026-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
