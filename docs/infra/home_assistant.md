@@ -4,7 +4,7 @@ Home Assistant is the central automation hub for the hackerspace, integrating va
 
 ## Access
 
-- **URL:** http://ha.local
+- **URL:** [http://ha.local](http://ha.local)
 - **Login:** hsg / ask a board member for the password
 
 ## Integrations
