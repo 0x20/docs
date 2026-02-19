@@ -25,6 +25,7 @@
 
 - [Electricity](electricity.md)
 - [Garbage](garbage.md)
+- [Robot Vacuum](robot_vacuum.md)
 - [Stadsmakers](stadsmakers.md)
 
 ---
