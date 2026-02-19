@@ -28,6 +28,7 @@ nav:
   - Electricity: infra/electricity.md
   - Garbage: infra/garbage.md
   - Stadsmakers: infra/stadsmakers.md
+  - Robot Vacuum: infra/robot_vacuum.md
 - Newline: newline.md
 - Contact: comms.md
 theme:
