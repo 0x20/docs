@@ -41,7 +41,9 @@ Now that you have your routine you can start preparing the CNC machine.
 
 ### Launch gcode sender 
 
-Turn on the CNC laptop or CNC computer and launch **gsender**. Other options will work too but we found this option to be the easiest one to use. 
+Turn on the CNC laptop or CNC computer and launch **gsender**. 
+Other options will work too but we found this option to be the easiest one to use. 
+See: https://github.com/Sienci-Labs/gsender and download the option that works for you.
 
 
 
