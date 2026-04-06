@@ -32,8 +32,8 @@ Now that you have your routine you can start preparing the CNC machine.
 
 ### Energizing the machine
 - Plug in the machine
-- Make sure both estops are not activated
-- Press the green energize button on the electronics box
+- Make sure both estops are not activated.
+- Press the green energize button on the electronics box should be lit up at this point. Press it. 
 
 
 
