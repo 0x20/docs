@@ -19,6 +19,7 @@ From BST Xnbada LED Strip Store, nonkel Ali
 
 ### WLED Config
 Configurable with WLED at: http://led-matrix.local
+
 Led Setup
 - Type: WS281x
 - mA/LED: 12mA (WS2815)
