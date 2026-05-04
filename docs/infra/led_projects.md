@@ -18,7 +18,7 @@ WS2815 DC12V, Black PCB, 5m 60 IP30
 From BST Xnbada LED Strip Store, nonkel Ali
 
 ### WLED Config
-Configurable with WLED at: http://led-matrix.local
+Configurable with WLED at: [http://led-matrix.local](http://led-matrix.local) (in the hackerspace)
 
 Led Setup
 - Type: WS281x
