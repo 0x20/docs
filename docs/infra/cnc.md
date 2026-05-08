@@ -4,7 +4,7 @@ The space has a 3 axis CNC machine based on the High-Z S-720 from [CNC-STEP](htt
 
 # Safety
 The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the electronics box. When pressed they cut the voltage to the spindle, motors and controller board. 
-Extra informatino about implementation: It cuts off the controller board which also deprives the steppers of current. The spindle circuit is cut off using a seperate relay.  
+Extra information about implementation: It cuts off the controller board which also deprives the steppers of current. The spindle circuit is cut off using a seperate relay.  
 
 ![E-stop gantry](./images/cnc_estop.jpg)
 
@@ -33,7 +33,7 @@ Now that you have your routine you can start preparing the CNC machine.
 ### Energizing the machine
 - Plug in the machine
 - Make sure both estops are not activated.
-- Press the green energize button on the electronics box should be lit up at this point. Press it. 
+- Press the green energize button on the electronics box. Press it. The button should now light up green. 
 
 
 
