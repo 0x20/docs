@@ -25,24 +25,23 @@ When operating the machine:
 <img src="./images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400">
 
 ## Stepper motor drivers
-- Model: DM556 
+For the X-axis and later all axis we will use the DM556 stepper motor drivers.
 - Guide: https://kitaez-cnc.com/f/dm556_v30.pdf
  
 <img src="./images/driver_DM556.jpg" alt="CNC X-axis stepper motor drivers" width="400">
 
+### Driver Switches
 There are 8 switches on the stepper motor driver that should be set as follows: 
 
 | SW1 | SW2 | SW3 | SW4 | SW5 | SW6 | SW7 | SW8 |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | OFF | ON  |  ON | ON  | ON | OFF  | ON  | OFF |
 
-### SW1 -> SW3
-Currently this is set to 2.1A max peak current. Because you have to divide by sqrt(2) to get the RMS value we are  currently under powering the CNC. 
-### SW4
-Current settings is full current.
+
+- **SW1 -> SW3**: Currently this is set to 2.1A max peak current. Because you have to divide by sqrt(2) to get the RMS value we are  currently under powering the CNC. 
+- **SW4**: Current settings is full current.
 This should be set to half current. This means that when the CNC is holding and not moving only half the current is applied. This saves stepper motor life. 
-### SW5-> SW8
-This is currently set to 4000 pulses per revolution. This is conservative. 
+- **SW5 -> SW8**: This is currently set to 4000 pulses per revolution. This is conservative. I noticed stepping at lower tick values (faster speeds)
 
 # Getting Started Guide  
 
