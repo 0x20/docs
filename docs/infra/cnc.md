@@ -22,7 +22,7 @@ When operating the machine:
 - Voltage drop: 4.8V
 - Max current: 2.1
 
-<img src="./images/cnc_motors.jpg" alt="CNC X-axis stepper motors" width="400">
+<img src="./images/cnc_motors.jpg" alt="CNC X-axis stepper motors" width="400" style="transform: rotate(180deg);">
 
 # Getting Started Guide  
 
