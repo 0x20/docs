@@ -18,12 +18,16 @@ When operating the machine:
 
 # Electronics information
 
-## Stepper motor drivers
+## Stepper motors
 - Voltage drop: 4.8V
-- Max current: 2.1
+- Max current: 2.1A
+<img src="./images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400">
 
-<img src="./images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400" style="transform: rotate(180deg);">
-
+## Stepper motor drivers
+- Model: DM556 
+- Guide: https://kitaez-cnc.com/f/dm556_v30.pdf
+<img src="./images/driver_DM556.jpg" alt="CNC X-axis stepper motor drivers" width="400">
+There are 8 switches on the stepper motor driver that should be set as follows
 # Getting Started Guide  
 
 ## Designing CNC Routines  
