@@ -18,9 +18,9 @@ When operating the machine:
 
 # Electronics information
 
-## Stepper motors
-- Voltage drop: 4.8V
-- Max current per phase (RMS): 2.1A
+## Stepper motor specifications
+- **Voltage drop: 4.8V**: We can power the stepper motors with way higher voltages, this is just the back EMF voltage that the power suppy needs to overcome.
+- **Max current per phase (RMS): 2.1A**: This is the max current that is allowed trough one winding. This is the RMS value which means the true max rated peak current is 3A.
 
 <img src="./images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400">
 
@@ -38,7 +38,7 @@ There are 8 switches on the stepper motor driver that should be set as follows:
 | OFF | ON  |  ON | ON  | ON | OFF  | ON  | OFF |
 
 
-- **SW1 -> SW3**: Currently this is set to 2.1A max peak current. Because you have to divide by sqrt(2) to get the RMS value we are  currently under powering the CNC. 
+- **SW1 -> SW3**: Currently this is set to 2.1A max peak current. So we are currently under powering the CNC. 
 - **SW4**: Current settings is full current.
 This should be set to half current. This means that when the CNC is holding and not moving only half the current is applied. This saves stepper motor life. 
 - **SW5 -> SW8**: This is currently set to 4000 pulses per revolution. This is conservative. I noticed stepping at lower tick values (faster speeds)
