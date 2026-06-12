@@ -16,6 +16,12 @@ When operating the machine:
 - Don't leave it unattended
 - Stay attentive and be ready to hit the e-stop
 
+# Electronics information
+
+## Stepper motor drivers
+- Voltage drop: 4.8V
+- Max current: 2.1
+
 # Getting Started Guide  
 
 ## Designing CNC Routines  
