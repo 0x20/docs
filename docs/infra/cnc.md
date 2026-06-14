@@ -14,7 +14,7 @@ When operating the machine:
 - Don't go near the moving axis or spindle
 - Always Wear earprotection
 - Don't leave it unattended
-- Stay attentive and be ready to hit the e-stop
+- Stay attentive and be ready to hit the e-stop!
 
 # Electronics information
 
