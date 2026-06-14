@@ -22,13 +22,13 @@ When operating the machine:
 - **Voltage drop: 4.8V**: We can power the stepper motors with way higher voltages, this is just the back EMF voltage that the power suppy needs to overcome.
 - **Max current per phase (RMS): 2.1A**: This is the max current that is allowed trough one winding. This is the RMS value which means the true max rated peak current is 3A.
 
-<img src="./images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400">
+![CNC X-axis stepper motors](images/cnc_motors_rotated.jpg){ width="400" }
 
 ## Stepper motor drivers
 For the X-axis and later all axis we will use the DM556 stepper motor drivers.
 - Guide: https://kitaez-cnc.com/f/dm556_v30.pdf
  
-<img src="./images/driver_DM556.jpg" alt="CNC X-axis stepper motor drivers" width="400">
+![CNC X-axis stepper motor drivers](images/driver_DM556.jpg){ width="400" }
 
 ### Driver Switches
 There are 8 switches on the stepper motor driver that should be set as follows: 
