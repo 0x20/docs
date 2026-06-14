@@ -6,7 +6,7 @@ The space has a 3 axis CNC machine based on the High-Z S-720 from [CNC-STEP](htt
 The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the electronics box. When pressed they cut the voltage to the spindle, motors and controller board. 
 Extra information about implementation: It cuts off the controller board which also deprives the steppers of current. The spindle circuit is cut off using a seperate relay.  
 
-![E-stop gantry](./images/cnc_estop.jpg)
+![E-stop gantry](/infra/cnc/images/cnc_estop.jpg)
 
 ![E-stop controller box](./images/cnc_panel.jpg)
 
