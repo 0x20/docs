@@ -6,7 +6,7 @@ The space has a 3 axis CNC machine based on the High-Z S-720 from [CNC-STEP](htt
 The machine has two E-stops (emergency stops). One is located on the x-axis gantry and another one on the electronics box. When pressed they cut the voltage to the spindle, motors and controller board. 
 Extra information about implementation: It cuts off the controller board which also deprives the steppers of current. The spindle circuit is cut off using a seperate relay.  
 
-![E-stop gantry](/infra/cnc/images/cnc_estop.jpg)
+![E-stop gantry](./images/cnc_estop.jpg)
 
 ![E-stop controller box](./images/cnc_panel.jpg)
 
@@ -22,13 +22,13 @@ When operating the machine:
 - **Voltage drop: 4.8V**: We can power the stepper motors with way higher voltages, this is just the back EMF voltage that the power suppy needs to overcome.
 - **Max current per phase (RMS): 2.1A**: This is the max current that is allowed trough one winding. This is the RMS value which means the true max rated peak current is 3A.
 
-<img src="./images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400">
+<img src="/infra/cnc/images/cnc_motors_rotated.jpg" alt="CNC X-axis stepper motors" width="400">
 
 ## Stepper motor drivers
 For the X-axis and later all axis we will use the DM556 stepper motor drivers.
 - Guide: https://kitaez-cnc.com/f/dm556_v30.pdf
  
-<img src="./images/driver_DM556.jpg" alt="CNC X-axis stepper motor drivers" width="400">
+<img src="/infra/cnc/images/driver_DM556.jpg" alt="CNC X-axis stepper motor drivers" width="400">
 
 ### Driver Switches
 There are 8 switches on the stepper motor driver that should be set as follows: 
