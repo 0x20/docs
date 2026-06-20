@@ -38,7 +38,7 @@ There are 8 switches on the stepper motor driver that should be set as follows:
 | ON | OFF  |  ON | OFF  | OFF | OFF  | ON  | ON |
 
 
-- **SW1 -> SW3**: Currently this is set to 2.1A max peak current. So we are currently under powering the CNC. 
+- **SW1 -> SW3**: Currently this is set to 2.7A max peak current. Which is 2.0A RMS, the max rating of the stepper motor. 
 - **SW4**: Current settings is half. This means that when the CNC is holding and not moving only half the current is applied. This saves stepper motor life. 
 - **SW5 -> SW8**: This is set to 1600 pulses per revolution. 
 
