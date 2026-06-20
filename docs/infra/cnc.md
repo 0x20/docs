@@ -35,7 +35,7 @@ There are 8 switches on the stepper motor driver that should be set as follows:
 
 | SW1 | SW2 | SW3 | SW4 | SW5 | SW6 | SW7 | SW8 |
 |-----|-----|-----|-----|-----|-----|-----|-----|
-| OFF | ON  |  ON | ON  | ON | OFF  | ON  | OFF |
+| ON | OFF  |  ON | ON  | ON | OFF  | ON  | OFF |
 
 
 - **SW1 -> SW3**: Currently this is set to 2.1A max peak current. So we are currently under powering the CNC. 
