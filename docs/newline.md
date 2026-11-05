@@ -8,13 +8,13 @@ Each edition gets its own website, hosted on GitHub Pages. Click a screenshot to
 
 ### Newline 2026
 
-[![Newline 2026](images/newline2026.png){ width="500" }](https://0x20.github.io/newline2026/)
+[![Newline 2026](images/newline2026.jpg){ width="400" }](https://0x20.github.io/newline2026/)
 
 [https://0x20.github.io/newline2026/](https://0x20.github.io/newline2026/)
 
 ### Newline 2025
 
-[![Newline 2025](images/newline2025.png){ width="500" }](https://0x20.github.io/newline2025/)
+[![Newline 2025](images/newline2025.jpg){ width="400" }](https://0x20.github.io/newline2025/)
 
 [https://0x20.github.io/newline2025/](https://0x20.github.io/newline2025/)
 
